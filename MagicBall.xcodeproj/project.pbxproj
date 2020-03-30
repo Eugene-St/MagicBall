@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58605199243130B80024660C /* Wizards-Magic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58605198243130B80024660C /* Wizards-Magic.ttf */; };
+		586AF5A1242E2E0900AAB929 /* NetworkMagicBallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586AF5A0242E2E0900AAB929 /* NetworkMagicBallManager.swift */; };
+		586AF5A3242E2F8200AAB929 /* MagicBallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586AF5A2242E2F8200AAB929 /* MagicBallData.swift */; };
+		586AF5A5242E2F9900AAB929 /* MagicBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586AF5A4242E2F9900AAB929 /* MagicBall.swift */; };
 		587E8942242E235D00BBE9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8941242E235D00BBE9BB /* AppDelegate.swift */; };
 		587E8944242E235D00BBE9BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8943242E235D00BBE9BB /* SceneDelegate.swift */; };
-		587E8946242E235D00BBE9BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8945242E235D00BBE9BB /* ViewController.swift */; };
+		587E8946242E235D00BBE9BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8945242E235D00BBE9BB /* MainViewController.swift */; };
 		587E8949242E235D00BBE9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E8947242E235D00BBE9BB /* Main.storyboard */; };
 		587E894B242E236100BBE9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587E894A242E236100BBE9BB /* Assets.xcassets */; };
 		587E894E242E236100BBE9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E894C242E236100BBE9BB /* LaunchScreen.storyboard */; };
+		587E895C242E2AD900BBE9BB /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E895B242E2AD900BBE9BB /* LaunchViewController.swift */; };
+		58DCFB3E243133D5001EB958 /* UIViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DCFB3D243133D5001EB958 /* UIViewGradient.swift */; };
+		58FBDA77243170D800848D1F /* Creepy-music-box.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58FBDA76243170D800848D1F /* Creepy-music-box.mp3 */; };
+		58FBDA79243171C300848D1F /* Elven_Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58FBDA78243171C300848D1F /* Elven_Forest.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58605198243130B80024660C /* Wizards-Magic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wizards-Magic.ttf"; sourceTree = "<group>"; };
+		586AF5A0242E2E0900AAB929 /* NetworkMagicBallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMagicBallManager.swift; sourceTree = "<group>"; };
+		586AF5A2242E2F8200AAB929 /* MagicBallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBallData.swift; sourceTree = "<group>"; };
+		586AF5A4242E2F9900AAB929 /* MagicBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBall.swift; sourceTree = "<group>"; };
 		587E893E242E235D00BBE9BB /* MagicBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		587E8941242E235D00BBE9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		587E8943242E235D00BBE9BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		587E8945242E235D00BBE9BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		587E8945242E235D00BBE9BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		587E8948242E235D00BBE9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		587E894A242E236100BBE9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587E894D242E236100BBE9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587E894F242E236100BBE9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587E895B242E2AD900BBE9BB /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		58DCFB3D243133D5001EB958 /* UIViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradient.swift; sourceTree = "<group>"; };
+		58FBDA76243170D800848D1F /* Creepy-music-box.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Creepy-music-box.mp3"; sourceTree = "<group>"; };
+		58FBDA78243171C300848D1F /* Elven_Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Elven_Forest.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,71 @@
 		587E8940242E235D00BBE9BB /* MagicBall */ = {
 			isa = PBXGroup;
 			children = (
-				587E8941242E235D00BBE9BB /* AppDelegate.swift */,
-				587E8943242E235D00BBE9BB /* SceneDelegate.swift */,
-				587E8945242E235D00BBE9BB /* ViewController.swift */,
-				587E8947242E235D00BBE9BB /* Main.storyboard */,
-				587E894A242E236100BBE9BB /* Assets.xcassets */,
-				587E894C242E236100BBE9BB /* LaunchScreen.storyboard */,
-				587E894F242E236100BBE9BB /* Info.plist */,
+				587E8957242E23BE00BBE9BB /* Views */,
+				587E8958242E23CA00BBE9BB /* Controllers */,
+				587E8959242E23D600BBE9BB /* NetworkManager */,
+				587E8956242E23A400BBE9BB /* SupportingFiles */,
+				587E8955242E239700BBE9BB /* Source */,
+				58DCFB3C243133A0001EB958 /* UIview + Extensions */,
 			);
 			path = MagicBall;
+			sourceTree = "<group>";
+		};
+		587E8955242E239700BBE9BB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				58605198243130B80024660C /* Wizards-Magic.ttf */,
+				58FBDA76243170D800848D1F /* Creepy-music-box.mp3 */,
+				58FBDA78243171C300848D1F /* Elven_Forest.mp3 */,
+				587E894A242E236100BBE9BB /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		587E8956242E23A400BBE9BB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				587E8941242E235D00BBE9BB /* AppDelegate.swift */,
+				587E8943242E235D00BBE9BB /* SceneDelegate.swift */,
+				587E894F242E236100BBE9BB /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		587E8957242E23BE00BBE9BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				587E8947242E235D00BBE9BB /* Main.storyboard */,
+				587E894C242E236100BBE9BB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		587E8958242E23CA00BBE9BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				587E8945242E235D00BBE9BB /* MainViewController.swift */,
+				587E895B242E2AD900BBE9BB /* LaunchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		587E8959242E23D600BBE9BB /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				586AF5A0242E2E0900AAB929 /* NetworkMagicBallManager.swift */,
+				586AF5A2242E2F8200AAB929 /* MagicBallData.swift */,
+				586AF5A4242E2F9900AAB929 /* MagicBall.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		58DCFB3C243133A0001EB958 /* UIview + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				58DCFB3D243133D5001EB958 /* UIViewGradient.swift */,
+			);
+			path = "UIview + Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +199,9 @@
 			files = (
 				587E894E242E236100BBE9BB /* LaunchScreen.storyboard in Resources */,
 				587E894B242E236100BBE9BB /* Assets.xcassets in Resources */,
+				58FBDA79243171C300848D1F /* Elven_Forest.mp3 in Resources */,
+				58605199243130B80024660C /* Wizards-Magic.ttf in Resources */,
+				58FBDA77243170D800848D1F /* Creepy-music-box.mp3 in Resources */,
 				587E8949242E235D00BBE9BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587E8946242E235D00BBE9BB /* ViewController.swift in Sources */,
+				586AF5A3242E2F8200AAB929 /* MagicBallData.swift in Sources */,
+				586AF5A1242E2E0900AAB929 /* NetworkMagicBallManager.swift in Sources */,
+				586AF5A5242E2F9900AAB929 /* MagicBall.swift in Sources */,
+				587E8946242E235D00BBE9BB /* MainViewController.swift in Sources */,
 				587E8942242E235D00BBE9BB /* AppDelegate.swift in Sources */,
 				587E8944242E235D00BBE9BB /* SceneDelegate.swift in Sources */,
+				58DCFB3E243133D5001EB958 /* UIViewGradient.swift in Sources */,
+				587E895C242E2AD900BBE9BB /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7NCZ24UXD;
-				INFOPLIST_FILE = MagicBall/Info.plist;
+				INFOPLIST_FILE = MagicBall/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7NCZ24UXD;
-				INFOPLIST_FILE = MagicBall/Info.plist;
+				INFOPLIST_FILE = MagicBall/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

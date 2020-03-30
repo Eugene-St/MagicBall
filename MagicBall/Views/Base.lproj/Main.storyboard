@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Wizards-Magic.ttf">
+            <string>WizardsMagic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LaunchViewController" customModule="MagicBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk_main" translatesAutoresizingMaskIntoConstraints="NO" id="k1J-ZO-HiC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5st-5e-UdO">
+                                <rect key="frame" x="97" y="767" width="220" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="gP1-yj-tTu"/>
+                                    <constraint firstAttribute="height" constant="55" id="udT-an-oRL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="WizardsMagic" family="Wizards Magic" pointSize="45"/>
+                                <state key="normal" title="start" backgroundImage="buttonb">
+                                    <color key="titleColor" red="0.073835946619999995" green="0.27267721299999997" blue="0.2745116353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tm8-Tp-Gbi" kind="presentation" modalPresentationStyle="fullScreen" id="Y6Y-Ij-6FR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="k1J-ZO-HiC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6G4-0H-c4Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5st-5e-UdO" secondAttribute="bottom" constant="40" id="BZ6-PF-KRy"/>
+                            <constraint firstItem="k1J-ZO-HiC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LfG-oO-Jwx"/>
+                            <constraint firstItem="k1J-ZO-HiC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QW7-ld-Y4r"/>
+                            <constraint firstItem="5st-5e-UdO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XUo-gC-AeQ"/>
+                            <constraint firstAttribute="bottom" secondItem="k1J-ZO-HiC" secondAttribute="bottom" id="bS8-wz-AZe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="startButtonLabel" destination="5st-5e-UdO" id="XSO-py-Kgz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="128.87323943661971"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="ruG-O3-Zeo">
+            <objects>
+                <viewController id="tm8-Tp-Gbi" customClass="MainViewController" customModule="MagicBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gdg-XQ-383">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="03v-KG-DY7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kk9-tQ-6jD">
+                                <rect key="frame" x="97" y="767" width="220" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="3dT-dy-5Ky"/>
+                                    <constraint firstAttribute="height" constant="55" id="JYM-Q0-p7I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="WizardsMagic" family="Wizards Magic" pointSize="34"/>
+                                <state key="normal" title="tap or shake" backgroundImage="buttonb">
+                                    <color key="titleColor" red="0.073835946619999995" green="0.27267721299999997" blue="0.2745116353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tabButtonPressed" destination="tm8-Tp-Gbi" eventType="touchUpInside" id="CD7-Io-dEC"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purple" id="tgS-0r-fRN">
+                                <rect key="frame" x="0.0" y="273" width="320" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="97Y-hc-Vlq">
+                                <rect key="frame" x="50" y="431.66666666666669" width="112" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="toz-0v-aB7"/>
+                                    <constraint firstAttribute="width" constant="112" id="zSr-4a-S5o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94333755970001221" green="0.51531179728183252" blue="0.57078278169584129" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="03v-KG-DY7" firstAttribute="top" secondItem="Gdg-XQ-383" secondAttribute="top" id="CJI-Bm-f8T"/>
+                            <constraint firstItem="kk9-tQ-6jD" firstAttribute="centerX" secondItem="Gdg-XQ-383" secondAttribute="centerX" id="mus-9k-EYN"/>
+                            <constraint firstAttribute="bottom" secondItem="03v-KG-DY7" secondAttribute="bottom" id="nLB-rV-sdc"/>
+                            <constraint firstItem="03v-KG-DY7" firstAttribute="trailing" secondItem="EAL-A1-2Pk" secondAttribute="trailing" id="pau-OT-sQc"/>
+                            <constraint firstItem="97Y-hc-Vlq" firstAttribute="leading" secondItem="Gdg-XQ-383" secondAttribute="leadingMargin" constant="30" id="rFx-yH-F4v"/>
+                            <constraint firstItem="EAL-A1-2Pk" firstAttribute="bottom" secondItem="kk9-tQ-6jD" secondAttribute="bottom" constant="40" id="w0F-bB-EGU"/>
+                            <constraint firstItem="97Y-hc-Vlq" firstAttribute="centerY" secondItem="Gdg-XQ-383" secondAttribute="centerY" id="xi1-9f-zjH"/>
+                            <constraint firstItem="03v-KG-DY7" firstAttribute="leading" secondItem="EAL-A1-2Pk" secondAttribute="leading" id="yph-y7-cDa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EAL-A1-2Pk"/>
+                    </view>
+                    <connections>
+                        <outlet property="circleLabel" destination="tgS-0r-fRN" id="FsZ-qk-m4b"/>
+                        <outlet property="predictionLabel" destination="97Y-hc-Vlq" id="FkW-zo-Jb2"/>
+                        <outlet property="tapButtonLabel" destination="kk9-tQ-6jD" id="n4J-ER-w4a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Kr-6Q-m5T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.97101449275374" y="124.55357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background1" width="375" height="667"/>
+        <image name="bk_main" width="375" height="667"/>
+        <image name="buttonb" width="200" height="56"/>
+        <image name="purple" width="246" height="270"/>
+    </resources>
+</document>
