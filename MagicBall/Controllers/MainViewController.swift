@@ -21,8 +21,8 @@ class MainViewController: UIViewController {
   var networkManager = NetworkMagicBallManager()
   
   // MARK: - Private properties
-  private var audioPlayer = AVAudioPlayer()
-
+  //  private var audioPlayer = AVAudioPlayer()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     self.becomeFirstResponder()
@@ -30,7 +30,7 @@ class MainViewController: UIViewController {
       guard let self = self else { return }
       self.updateInterfaceWith(ball: magicball)
     }
-    playBackgroundMusic()
+    addShadow(for: tapButtonLabel)
   }
   
   // MARK: - IBActions
@@ -47,16 +47,11 @@ class MainViewController: UIViewController {
     }
   }
   
-  private func playBackgroundMusic() {
-    let assortedMusics = NSURL(fileURLWithPath: Bundle.main.path(forResource: "Elven_Forest", ofType: "mp3")!)
-    do {
-      audioPlayer = try AVAudioPlayer(contentsOf: assortedMusics as URL)
-    } catch {
-      print(error)
-    }
-    audioPlayer.prepareToPlay()
-    audioPlayer.numberOfLoops = -1
-    audioPlayer.play()
+  private func addShadow(for button: UIButton) {
+    button.layer.shadowColor = UIColor.black.cgColor
+    button.layer.shadowOffset = CGSize(width: 5, height: 5)
+    button.layer.shadowRadius = 5
+    button.layer.shadowOpacity = 0.3
   }
   
   // We are willing to become first responder to get shake motion
@@ -77,8 +72,8 @@ class MainViewController: UIViewController {
 
 // MARK: - Vibration
 extension UIDevice {
-    static func vibrate() {
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
-    }
+  static func vibrate() {
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+  }
 }
 

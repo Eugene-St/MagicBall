@@ -18,7 +18,6 @@
 		587E894B242E236100BBE9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587E894A242E236100BBE9BB /* Assets.xcassets */; };
 		587E894E242E236100BBE9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587E894C242E236100BBE9BB /* LaunchScreen.storyboard */; };
 		587E895C242E2AD900BBE9BB /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E895B242E2AD900BBE9BB /* LaunchViewController.swift */; };
-		58DCFB3E243133D5001EB958 /* UIViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DCFB3D243133D5001EB958 /* UIViewGradient.swift */; };
 		58FBDA77243170D800848D1F /* Creepy-music-box.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58FBDA76243170D800848D1F /* Creepy-music-box.mp3 */; };
 		58FBDA79243171C300848D1F /* Elven_Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58FBDA78243171C300848D1F /* Elven_Forest.mp3 */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		587E894D242E236100BBE9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587E894F242E236100BBE9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587E895B242E2AD900BBE9BB /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
-		58DCFB3D243133D5001EB958 /* UIViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradient.swift; sourceTree = "<group>"; };
 		58FBDA76243170D800848D1F /* Creepy-music-box.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Creepy-music-box.mp3"; sourceTree = "<group>"; };
 		58FBDA78243171C300848D1F /* Elven_Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Elven_Forest.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +75,6 @@
 				587E8959242E23D600BBE9BB /* NetworkManager */,
 				587E8956242E23A400BBE9BB /* SupportingFiles */,
 				587E8955242E239700BBE9BB /* Source */,
-				58DCFB3C243133A0001EB958 /* UIview + Extensions */,
 			);
 			path = MagicBall;
 			sourceTree = "<group>";
@@ -129,14 +126,6 @@
 				586AF5A4242E2F9900AAB929 /* MagicBall.swift */,
 			);
 			path = NetworkManager;
-			sourceTree = "<group>";
-		};
-		58DCFB3C243133A0001EB958 /* UIview + Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				58DCFB3D243133D5001EB958 /* UIViewGradient.swift */,
-			);
-			path = "UIview + Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +208,6 @@
 				587E8946242E235D00BBE9BB /* MainViewController.swift in Sources */,
 				587E8942242E235D00BBE9BB /* AppDelegate.swift in Sources */,
 				587E8944242E235D00BBE9BB /* SceneDelegate.swift in Sources */,
-				58DCFB3E243133D5001EB958 /* UIViewGradient.swift in Sources */,
 				587E895C242E2AD900BBE9BB /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
